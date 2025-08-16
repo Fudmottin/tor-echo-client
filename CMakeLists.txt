@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Boost
-find_package(Boost 1.88 REQUIRED COMPONENTS system)
+find_package(Boost 1.81 REQUIRED COMPONENTS system)
 
 # Set Homebrew readline prefixes (ARM & Intel)
 if(APPLE)
